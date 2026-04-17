@@ -33,11 +33,14 @@ jobs:
           # Preprocess org file:
           # 1. strip @@latex:...@@ inline snippets
           # 2. strip {{{macro}}} calls (e.g. needspace)
-          # 3. strip trailing \\ forced line breaks — pandoc requires closing * for bold
-          #    to be followed by whitespace/punctuation, but \\ blocks recognition
+          # 3. strip trailing \\ ONLY on numbered list item lines (N. *Title*\\)
+          #    — pandoc requires bold closing * to be followed by whitespace/punctuation;
+          #    \\ blocks that recognition on publication title lines
+          # 4. drop "Contributions to Peer-Review" section (last section in file)
           sed 's/@@latex:[^@]*@@//g' academic/academic-cv.org \
             | sed 's/{{{[^}]*}}}//g' \
-            | sed 's/\\\\$//' \
+            | sed '/^[[:space:]]*[0-9][0-9]*\./s/\\\\$//' \
+            | awk '/^\* Contributions to Peer-Review/{exit} {print}' \
             > /tmp/cv-clean.org
 
           # Convert CV org -> HTML

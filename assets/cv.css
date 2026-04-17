@@ -1,4 +1,5 @@
 /* CV stylesheet for arnabkdey.org/cv */
+/* Note: pandoc org reader emits class="CENTER" (uppercase) for #+BEGIN_CENTER */
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -13,29 +14,29 @@ body {
   padding: 2.5rem 3rem 4rem;
 }
 
-/* hide the redundant document-level title */
+/* hide the redundant document-level title (name appears in CENTER block) */
 h1.title { display: none; }
 
-/* ---- header block (#+BEGIN_CENTER) ---- */
+/* ---- header block (#+BEGIN_CENTER -> div.CENTER) ---- */
 
-div.center, .center {
+div.CENTER {
   text-align: center;
   margin-bottom: 1.75rem;
 }
 
-div.center p, .center p {
+div.CENTER p {
   text-align: center;
-  margin: 0.15rem 0;
+  margin: 0.2rem 0;
 }
 
-/* name — first paragraph in the center block */
-div.center p:first-child {
-  font-size: 2rem;
+/* name — first paragraph in the CENTER block */
+div.CENTER p:first-child {
+  font-size: 2.2rem;
   font-weight: 700;
   color: #111;
   letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
   line-height: 1.2;
+  margin-bottom: 0.6rem;
 }
 
 /* suppress empty paragraphs from stripped latex vspace commands */

@@ -32,7 +32,7 @@ Scripps Institution of Oceanography\\
 University of California San Diego\\
 8885 Biological Grade, La Jolla, CA 92037\\
 @@latex:\vspace{1.5em}@@
-*Email:* arnabxdey@gmail.com\\
+*Email:* arnabxdey [at] gmail [dot] com\\
 *ORCID ID:* 0000-0003-4585-3130 | [[https://scholar.google.com/citations?user=iHzQ2QUAAAAJ&hl=en&oi=ao][Google Scholar]] \\
 @@latex:\vspace{1.5em}@@
 *Research interests:* Environmental Epidemiology and Health Disparities, with Focus on Extreme Weather Impacts on Maternal-Child Health Outcomes and Gender-Based Violence; Using Machine Learning and Causal-Inference Methods
@@ -52,7 +52,7 @@ University of California San Diego\\
 
 *** Bachelor of Engineering (Electronics and Communication)
     2006-2010 \\
-    University of Barddhamān, India
+    University of Burdwan, India
    
 * Employment History
 ** Scripps institution of Oceanography, University of California San Diego
