@@ -30,13 +30,18 @@ jobs:
         run: |
           mkdir -p _site/cv _site/assets
 
+          # Strip @@latex:...@@ inline snippets that produce empty paragraphs in HTML
+          sed 's/@@latex:[^@]*@@//g' academic/academic-cv.org > /tmp/cv-clean.org
+
           # Convert CV org -> HTML
-          pandoc academic/academic-cv.org \
+          # --shift-heading-level-by=1: maps *Section -> h2, **Sub -> h3, ***Sub -> h4
+          pandoc /tmp/cv-clean.org \
             --from=org \
             --to=html5 \
             --standalone \
+            --shift-heading-level-by=1 \
             --css=../assets/cv.css \
-            --metadata title="Arnab K. Dey — Academic CV" \
+            --metadata title="Arnab K. Dey" \
             --output=_site/cv/index.html
 
           # Append back link to CV page
