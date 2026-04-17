@@ -8,73 +8,74 @@ body {
   line-height: 1.5;
   color: #222;
   background: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-/* page container */
-header, main, body > div {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 2rem 3rem;
+  padding: 2.5rem 3rem 4rem;
 }
 
-/* document title (--metadata title) — show as small subtitle above body */
-h1.title {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #999;
-  text-align: center;
-  margin-bottom: 0.25rem;
-  padding-top: 1.5rem;
-}
+/* hide the redundant document-level title */
+h1.title { display: none; }
 
-/* center block from #+BEGIN_CENTER / #+END_CENTER */
+/* ---- header block (#+BEGIN_CENTER) ---- */
+
 div.center, .center {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 
 div.center p, .center p {
   text-align: center;
-  margin: 0.2rem 0;
+  margin: 0.15rem 0;
 }
 
-/* suppress empty paragraphs left by stripped latex commands */
+/* name — first paragraph in the center block */
+div.center p:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+/* suppress empty paragraphs from stripped latex vspace commands */
 p:empty { display: none; }
 
-/* section headings: * Heading -> h2 after shift */
+/* ---- section headings: * Heading -> h2 ---- */
+
 h2 {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   font-variant: small-caps;
   color: rgb(28, 144, 153);
   border-bottom: 1.5px solid rgb(28, 144, 153);
   padding-bottom: 0.15rem;
-  margin-top: 1.6rem;
+  margin-top: 1.75rem;
   margin-bottom: 0.5rem;
   letter-spacing: 0.02em;
 }
 
-/* subsection headings: ** Heading -> h3 (institution names etc.) */
+/* ---- subsection: ** Heading -> h3 (institution names) ---- */
+
 h3 {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: #222;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  border-bottom: 1px solid #ccc;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 0.1rem;
   margin-top: 1rem;
   margin-bottom: 0.3rem;
 }
 
-/* sub-subsection headings: *** Heading -> h4 (degree titles etc.) */
+/* ---- sub-subsection: *** Heading -> h4 (degree titles) ---- */
+
 h4 {
   font-size: 0.9rem;
   font-weight: 600;
   color: #333;
-  margin-top: 0.7rem;
+  margin-top: 0.75rem;
   margin-bottom: 0.15rem;
 }
 
@@ -82,7 +83,6 @@ p {
   margin: 0.25rem 0;
 }
 
-/* publication and talk lists */
 ol, ul {
   padding-left: 1.4rem;
   margin: 0.3rem 0;
@@ -92,7 +92,6 @@ li {
   margin-bottom: 0.25rem;
 }
 
-/* links */
 a {
   color: rgb(28, 144, 153);
   text-decoration: none;
@@ -102,23 +101,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* back link */
 p.back-link {
   margin-top: 2.5rem;
   font-size: 0.85rem;
   color: #888;
 }
 
-/* print styles */
 @media print {
   h1.title { display: none; }
-  body { font-size: 11pt; }
+  body { font-size: 11pt; padding: 0; }
   a { color: #000; }
   h2 { border-bottom-color: #000; color: #000; }
   h3 { border-bottom-color: #999; }
 }
 
-/* narrow screens */
 @media (max-width: 600px) {
-  header, main, body > div { padding: 1.25rem 1rem 2rem; }
+  body { padding: 1.5rem 1.25rem 2.5rem; }
 }
