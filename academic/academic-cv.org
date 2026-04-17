@@ -43,7 +43,7 @@ University of California San Diego\\
 *** Ph.D. in Public Health (Global Health)
     2019-2024 \\
     University of California San Diego & San Diego State University @@latex:\vspace{0.5em}@@\\
-    Advised by: [[https://profiles.ucsd.edu/Tarik.Benmarhnia][Dr. Tarik Benmarhnia]] & [[https://newcomb.tulane.edu/anita_raj][Dr. Anita Raj]] @@latex:\vspace{0.5em}@@\\
+    Advised by: [[https://benmarhniaresearch.ucsd.edu/][Dr. Tarik Benmarhnia]] & [[https://newcomb.tulane.edu/anita_raj][Dr. Anita Raj]] @@latex:\vspace{0.5em}@@\\
     Thesis Title: Understanding The Effects of Extreme Temperatures on The Utilization of Maternal Health Services and Neonatal Survival in India
 
 *** Post Graduate Diploma in Forestry Management
