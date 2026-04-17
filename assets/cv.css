@@ -1,0 +1,118 @@
+/* CV stylesheet for arnabkdey.org/cv */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #222;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* center container */
+body > * {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+/* header block */
+header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* CV name rendered as h1 by pandoc from #+TITLE or first heading */
+h1.title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0.3rem;
+}
+
+/* section headings — match LaTeX myblue */
+h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  color: rgb(28, 144, 153);
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  border-bottom: 1.5px solid rgb(28, 144, 153);
+  padding-bottom: 0.15rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+/* subsection headings */
+h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  margin: 0.3rem 0;
+}
+
+/* publication and talk lists */
+ol, ul {
+  padding-left: 1.4rem;
+  margin: 0.4rem 0;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+/* links */
+a {
+  color: rgb(28, 144, 153);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* centered blocks (from #+BEGIN_CENTER) */
+.center, div.center, p.center {
+  text-align: center;
+}
+
+/* back link */
+.back-link {
+  display: block;
+  margin-top: 2.5rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.back-link a {
+  color: rgb(28, 144, 153);
+}
+
+/* print styles */
+@media print {
+  body { font-size: 11pt; }
+  a { color: #000; }
+  h2 { border-bottom-color: #000; color: #000; }
+}
+
+/* narrow screens */
+@media (max-width: 600px) {
+  body > * { padding: 1.5rem 1rem; }
+}

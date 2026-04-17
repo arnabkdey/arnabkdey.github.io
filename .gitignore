@@ -1,0 +1,7 @@
+archives/
+pdf_copies_all_my_pubs/
+proof_of_peer_Reviews/
+academic/ltximg/
+academic/*.pdf
+academic/*~
+.DS_Store

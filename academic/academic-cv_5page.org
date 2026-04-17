@@ -1,0 +1,292 @@
+# Export using C-c C-e l p
+#+OPTIONS: toc:nil num:nil title: nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{fontsize}
+#+LATEX_HEADER: \changefontsize{11pt}
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \definecolor{myblue}{RGB}{28,144,153}
+#+LATEX_HEADER: \titleformat{\section}{\Large\bfseries\scshape\raggedright\color{myblue}}{}{0em}{}[\vspace{-0.7em}\textcolor{myblue}{\titlerule[1pt]}]
+#+LATEX_HEADER: \titlespacing*{\section}{0pt}{4pt}{2pt}
+#+LATEX_HEADER: \titlespacing*{\subsection}{0pt}{3pt}{1pt}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \renewcommand{\headrulewidth}{0pt}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[itemize]{itemsep=0pt, parsep=0pt, topsep=0pt, partopsep=0pt}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \setstretch{0.9}
+#+LATEX_HEADER: \usepackage{needspace}
+
+#+MACRO: needspace @@latex:\needspace{3\baselineskip}@@
+
+
+#+BEGIN_CENTER
+@@latex:{\LARGE@@ Arnab K. Dey@@latex:}@@ \\
+@@latex:\vspace{0.5em}@@
+Postdoctoral Researcher\\
+Scripps Institution of Oceanography\\
+University of California San Diego\\
+
+@@latex:\vspace{0.5em}@@
+*Email:* akdey@ucsd.edu\\
+*ORCID ID:* 0000-0003-4585-3130 | [[https://scholar.google.com/citations?user=iHzQ2QUAAAAJ&hl=en&oi=ao][Google Scholar]] \\
+@@latex:\vspace{0.5em}@@
+*Research interests:* Environmental Epidemiology and Health Disparities, with Focus on Extreme Weather Impacts on Maternal-Child Health Outcomes; Using Machine Learning and Causal-Inference Methods
+#+END_CENTER
+
+* Educational Background
+  
+*** Ph.D. in Public Health (Global Health) (2019-2024)  
+    University of California San Diego & San Diego State University @@latex:\vspace{0.3em}@@\\
+    Advised by: [[https://profiles.ucsd.edu/Tarik.Benmarhnia][Dr. Tarik Benmarhnia]] & [[https://newcomb.tulane.edu/anita_raj][Dr. Anita Raj]] 
+    
+*** Post Graduate Diploma in forestry Management (2010-2012)
+    Indian institute of forest Management, India
+
+*** Bachelor of Engineering (Electronics and Communication) (2006-2010)
+    University of Barddhamān, India
+   
+* Employment History
+** Scripps institution of Oceanography, University of California San Diego
+   - Jan 2025 - Present: Postdoctoral Scholar
+   - Jun 2023 - Dec 2024: Graduate Student Researcher {{{needspace}}}
+** Center on Gender Equity and Health (GEH), University of California San Diego
+   - Aug 2019 - May 2023: Graduate Student Researcher {{{needspace}}}
+** Sambodhi Research and Communications, New Delhi, India 
+   - Jan 2017 - Jun 2019: Assistant Vice President
+   - Apr 2015-Dec 2016: Senior Manager Research
+   - Apr 2013-Mar 2015: Manager Research
+   - Apr 2012-Mar 2013: Deputy Manager
+
+* Peer-Reviewed Publications
+
+1. *Long-term exposure to fine particulate matter and diabetes in Bangladeshi adults: Can clean air targets curb the rising diabetes burden?*\\
+   Rana, J., *Dey, A.K.*, Islam, R. M., Dey, S., Moraga, P., Kaufman, J.S. \\
+   /Science of the Total Environment/ (2026) {{{needspace}}}
+   
+2. *Heatwaves and Home Births: Understanding The Impact of Extreme Heat on Place of Delivery in India*\\
+   *Dey, A.K.*, Dimitrova, A., Raj, A., Benmarhnia, T.\\
+   /GeoHealth/ (2025) {{{needspace}}}
+      
+3. *The Effect of Extreme Temperatures on Healthcare Utilization During Pregnancy: Findings from a Nationally Representative Survey in India*\\
+   *Dey, A.K.*, Dimitrova, A., Raj, A., Benmarhnia, T.\\
+   /Environmental Research/ (2025) {{{needspace}}}
+   
+4. *Two-Stage interrupted Time Series Analysis with Machine Learning: Evaluating the Health Effects of the 2018 Wildfire Smoke Event in San Francisco County As A Case Study*\\
+   *Dey, A.K.*, Ma, Y., Carrasco-Escobar, G., Han, C., Rerolle, F., Benmarhnia, T.\\
+   /American Journal of Epidemiology/ (2025) {{{needspace}}}
+
+5. *Impact of Extreme Heat on Domestic Violence Calls for Services in New Orleans*\\
+   *Dey, A.K.*, Rao, N., Thomas, E. E., Ma, Y., Riley, G., Benmarhnia, T., Raj, A.\\
+   /JAMA Network Open/ (2025) {{{needspace}}}
+
+6. *The 2025 Los Angeles Wildfires and Outpatient Acute Healthcare Utilization*\\
+   Casey, J. A., Gu, Y. M., Schwarz, L., Frankland, T. B., Wilner, L. B., McBrien, H., Flores, N. M., *Dey, A.K.*, Lee, G. S., Chen, C., Benmarhnia, T., Tartof, S. Y.\\
+   /JAMA Health forum/  (2025) {{{needspace}}}
+
+7. *Expulsion Rates 12 Months After Early Versus Interval Postpartum Intrauterine Device Placement: A Randomized Trial*
+   Averbach, S., Vaida, F., Hinz, E., Kully, G., *Dey, A.K.*, Lutgendorf, M., Haider, S. and Hofler, L. \\
+   /American Journal of Obstetrics and Gynecology/ (2025) {{{needspace}}}
+
+8. *Are Traditional Honor Ideologies Associated with Fertility Goals and Contraceptive Use? Findings from a Cross-Sectional Study with a National Sample of Women and Men in Uganda*\\
+   *Dey, A.K.*, Closson, K., Bock, J. E., Brown, R. P., Nabukhonzo, P. K., Nyegenye, W., & Raj, A.\\
+   /African Journal of Reproductive Health/ (2025) {{{needspace}}}
+
+9. *Are Households Affected by Intimate Partner Violence Less Likely to Enroll Children Into Early Education in India: Findings from the Fifth National Family Health Survey, 2019 to 2021*\\
+   Li, H., *Dey, A.K.*, Singh, A., McDougal, L., Hay, K., & Raj, A.\\
+   /Journal of interpersonal Violence/ (2024) {{{needspace}}}
+
+10. *Spatial Targeting and Integration Across Vaccination, Vitamin A and Deworming Programs Throughout India 2019–21*\\
+    Rerolle, F., *Dey, A.K.*, Benmarhnia, T., & Arnold, B. F.\\
+    /International Journal of Epidemiology/ (2024) {{{needspace}}}
+
+11. *The EMERGE Framework to Measure Empowerment for Health and Development*\\
+    Raj, A., *Dey, A.K.*, Rao, N., Yore, J., McDougal, L., Bhan, N., Silverman, J.G., Hay, K., Thomas, E.E., Fotso, J.C. and Lundgren, R.\\
+    /Social Science & Medicine/ (2024) {{{needspace}}}
+
+12. *The Association Between Quality of Contraceptive Counseling and Selection of Contraceptive Method Post-Counseling Among Women in Ethiopia*\\
+    Ermias, Y., Averbach, S. H., *Dey, A.K.*, Gebrehanna, E., & Holt, K.\\
+    /Contraception/ (2023) {{{needspace}}}
+
+13. *Provider-Patient Experiences and HIV Care Utilization Among People Living with HIV who Inject Drugs in St. Petersburg, Russia*\\
+    Raj, A., Gnatienko, N., Cheng, D.M., Blokhina, E., *Dey, A.K.*, Wagman, J.A., toussova, O., Truong, V., Rateau, L., Lunze, K. and Krupitsky, E.\\
+    /International Journal for Quality in Health Care/ (2023) {{{needspace}}}
+
+14. *The Associations of Everyday and Major Discrimination Exposure with Violence and Poor Mental Health Outcomes During the COVID-19 Pandemic*\\
+    Raj, A., Chatterji, S., Johns, N. E., Yore, J., *Dey, A.K.*, & Williams, D. R.\\
+    /Social Science & Medicine/ (2023) {{{needspace}}}
+
+15. *Early Vs Interval Postpartum intrauterine Device Placement: A Randomized Clinical Trial*\\
+    Averbach, S., Kully, G., Hinz, E., *Dey, A.K.*, Berkley, H., Hildebrand, M., Vaida, F., Haider, S. and Hofler, L.G.\\
+    /JAMA/ (2023) {{{needspace}}}
+
+16. *Impulsivity and Linkage to HIV Care Among People Living with HIV in St. Petersburg, Russia*\\
+    *Dey, A.K.*, Ennis, N., Cheng, D.M., Blokhina, E., Raj, A., Quinn, E., Bendiks, S., Palfai, T., Dunne, E.M., Cook, R.L. and Krupitsky, E.
+    /AIDS and Behavior/ (2022)  {{{needspace}}}
+
+17. *Factors Affecting Delayed and Non-Receipt of Healthcare During the COVID-19 Pandemic for Women in Rural Maharashtra, India: Evidence from a Cross-Sectional Study*\\
+    *Dey, A.K.*, Bhan, N., Rao, N., Ghule, M., Chatterji, S., & Raj, A.\\
+    /Lancet EClinicalMedicine/ (2022) {{{needspace}}}
+
+18. *Gender Differences in Work Attendance Among Health Care Workers in Northern Nigeria During The COVID-19 Pandemic*\\
+    Taiwo, M., Oyekenu, O., Ekeh, F., *Dey, A.K.*, & Raj, A.\\
+    /Lancet EClinicalMedicine/ (2022) {{{needspace}}}
+
+19. *Using Machine Learning to Understand Determinants of IUD Use in India: Analyses of The National Family Health Surveys (NFHS-4)*\\
+    *Dey, A.K.*, Dehingia, N., Bhan, N., Thomas, E.E., McDougal, L., Averbach, S., McAuley, J., Singh, A. and Raj, A.\\
+    /SSM-Population Health/ (2022) {{{needspace}}}
+
+20. *Strengthening Health Systems in Crisis Due to COVID-19 Requires Ending Violence Against Female Healthcare Workers*\\
+    *Dey, A.K.*, Hay, K., & Raj, A.\\
+    /Lancet EClinicalMedicine/ (2022) {{{needspace}}}
+
+21. *Help Seeking Behavior by Women Experiencing Intimate Partner Violence in India: A Machine Learning Approach to Identifying Risk Factors*\\
+    Dehingia, N., *Dey, A.K.*, McDougal, L., McAuley, J., Singh, A., & Raj, A.\\
+    /PloS one/ (2022)   {{{needspace}}}
+
+22. *How Does the Sex Composition of Children Affect Men's Higher Ideal Family Size Preference Relative to Women and Contraceptive Use Patterns Among Couples? A Cross-Sectional Analysis of Dyadic Couple's Data in India*\\
+    *Dey, A.K.*, Acharya, R., Tomar, S., Silverman, J. G., & Raj, A.\\
+    /SSM-Population Health/ (2021) {{{needspace}}}
+
+23. *Measuring Quality of Family Planning Counseling and its Effects on Uptake of Contraceptives in Public Health Facilities in Uttar Pradesh, India: A Cross-Sectional Analysis*\\
+    *Dey, A.K.*, Averbach, S., Dixit, A., Chakraverty, A., Dehingia, N., Chandurkar, D., Singh, K., Choudhry, V., Silverman, J.G. and Raj, A.\\
+    /PLoS ONE/ (2021)  {{{needspace}}}
+
+24. *Associations of Intimate Partner Violence and Reproductive Coercion with Contraceptive Use in Uttar Pradesh, India: How Associations Differ Across Contraceptive Methods*\\
+    Tomar, S., Dehingia, N., *Dey, A.K.*, Chandurkar, D., Raj, A., & Silverman, J. G.\\
+    /PLoS ONE/ (2020) {{{needspace}}}
+
+25. *Infection Prevention Preparedness and Practices for Female Sterilization Services Within Primary Care Facilities in Northern India*\\
+    Kumar, A., Gautam, A., *Dey, A.K.*, Saith, R., Uttamacharya, Achyut, P., Gautam, V., Agarwal, D., Chakraverty, A., Mozumdar, A. and Aruldas, K.,\\
+    /BMC Health Services Research/ (2020) {{{needspace}}}
+
+26. *Family Support and Community Respect for Community Health Workers and the Association of These with CHW Productivity and Clinic Health Care Utilization*\\
+    Dehingia, N., Shakya, H., Chandurkar, D., Hay, K., *Dey, A.K.*, Singh, K., Silverman, J.G. and Raj, A.\\
+    /Journal of Global Health Reports/ (2020) {{{needspace}}}
+
+27. *Family Planning Counseling and Its Associations with Modern Contraceptive Use, Initiation, and Continuation in Rural Uttar Pradesh, India*\\
+    Dehingia, N., Dixit, A., Averbach, S., Choudhry, V., *Dey, A.K.*, Chandurkar, D., Nanda, P., Silverman, J.G. and Raj, A.,\\
+    /Reproductive Health/ (2019) {{{needspace}}}
+
+28. *Choice of Contraceptive Methods in Public and Private Facilities in Rural India*\\
+    Mozumdar, A., Gautam, V., Gautam, A., *Dey, A.K*, Uttamacharya, Saith, R., Achyut, P., Kumar, A., Aruldas, K., Chakraverty, A. and Agarwal, D.\\
+    /BMC Health Services Research/ (2019) {{{needspace}}}
+
+29. *Disrupting Gender Norms in Health Systems: Making The Case for Change*\\
+    Hay, K., McDougal, L., Percival, V., Henry, S., Klugman, J., Wurie, H., Raven, J., Shabalala, F., Fielding-Miller, R., *Dey, A.K.*, and Dehingia, N.\\
+    /The Lancet/ (2019) {{{needspace}}}
+
+30. *Understanding Intersections of Social Determinants of Maternal Healthcare Utilization in Uttar Pradesh, India*\\
+    *Dey, A.K.*, Hay K, Afroz B, Chandurkar D, Singh K, Dehingia N, et al.\\
+    /SSM-Population Health/ (2018) {{{needspace}}}
+
+31. *Heterogeneities in Utilization of Antenatal Care in Uttar Pradesh, India: The Need to Contextualize Interventions to Individual Contexts*\\
+    Sridharan S, Pereira A, Hay K, *Dey, A.K.*, Chandurkar D, Veldhuizen S, et al.\\
+    /Global Health Action/ (2018) {{{needspace}}}
+
+32. *Discordance in Self-Report and Observation Data on Mistreatment of Women By Providers During Childbirth in Uttar Pradesh, India*\\
+    *Dey, A.K.*, Shakya HB, Chandurkar D, Kumar S, Das AK, Anthony J, et al.\\
+    /Reproductive Health/ (2017) {{{needspace}}}
+
+33. *Associations Between Mistreatment by a Provider During Childbirth and Maternal Health Complications in Uttar Pradesh, India*\\
+    Raj A, *Dey, A.K.*, Boyce S, Seth A, Bora S, Chandurkar D, et al.\\
+    /Maternal and Child Health Journal/ (2017) {{{needspace}}}
+
+34. *Towards An Understanding of The Multilevel Factors Associated with Maternal Health Care Utilization in Uttar Pradesh, India*\\
+    Sridharan S, *Dey, A.K.*, Seth A, Chandurkar D, Singh K, Hay K, et al.\\
+    /Global Health Action/ (2017) {{{needspace}}}
+
+35. *Differential Effects of Community Health Worker Visits Across Social and Economic Groups in Uttar Pradesh, India: A Link Between Social Inequities and Health Disparities*\\
+    Seth A, Tomar S, Singh K, Chandurkar D, Chakraverty A, *Dey, A.K.*, et al.\\
+    /International Journal for Equity in Health/ (2017) {{{needspace}}}
+
+* Other Publications
+
+1. *Using Google Trends Data to Assess Reproductive Health Needs in Nigeria During COVID-19*\\
+   *Dey, A.K.*, Dehingia N., Raj A.\\
+   Big Data and Gender in the Age of COVID-19: A Brief Series from UC San Diego (2021) {{{needspace}}}
+
+2. *Topic Modeling of Twitter Data to Identify Issues Impacting Women and Girls' Education During The COVID-19 Pandemic*\\
+   *Dey, A.K.*, Dehingia N., Sassendrakumar BR, Tripathi T, Raj A.\\
+   Big Data and Gender in the Age of COVID-19: A Brief Series from UC San Diego (2021) {{{needspace}}}
+
+3. *Understanding Patterns of Unplanned Pregnancies and Abortions in India During The Covid-19 Pandemic Using Google Trends Data*\\
+   *Dey, A.K.*, Dehingia, N., Raj A.\\
+   Emerge – Blog Post (2021) {{{needspace}}}
+
+4. *Trends in Online Misogyny Before and During the COVID-19 Pandemic: Analysis of Twitter Data from Five South-Asian Countries*\\
+   Dehingia N., Lundgren R, *Dey, A.K.*, Raj A.\\
+   Big Data and Gender in the Age of COVID-19: A Brief Series from UC San Diego (2021) {{{needspace}}}
+
+5. *Gender Differences in Social Media Communication By National Leaders During the COVID-19 Pandemic*\\
+   Dehingia N., *Dey, A.K.*, Raj A.\\
+   Big Data and Gender in the Age of COVID-19: A Brief Series from UC San Diego (2021) {{{needspace}}}
+
+6. *A Conceptual Framework for Measuring Empowerment*\\
+   Raj A, *Dey, A.K.*, Lundgren R, and The EMERGE Team\\
+   Emerge Project Report (2021) {{{needspace}}}
+
+* Conference Presentations (Select)
+
+1. *Associations Between Heat and Domestic Violence: Evidence from New Orleans, Louisiana*\\
+   Sexual Violence Research Initiative Forum (2024) {{{needspace}}}
+
+2. *Heatwaves and Home Births: Impact of Extreme Heat on Delivery Choices in India*\\
+   36th Annual Conference of the International Society of Environmental Epidemiology (2024) {{{needspace}}}
+
+3. *Testing Assumptions in Theories of Change*\\
+   American Evaluation Association Conference, Minneapolis, Minnesota (2019) {{{needspace}}}
+
+* Invited Talks (Select)
+
+1. *Heat and Harm: How Extreme Temperatures Shape Healthcare Utilization and Violence Against Women*\\
+   School of Medicine, University of California San Diego (2025) {{{needspace}}}
+
+2. *Using Demographic and Health Surveys (DHS) for Environmental Epidemiological Studies*\\
+   Scripps Institution of Oceanography, University of California San Diego (2025) {{{needspace}}}
+
+3. *Big Data and Gender in The Age of COVID-19*\\
+   Data Feminism Network, Online (2021) {{{needspace}}}
+
+4. *Gender Equality, Norms and Health: Lancet Series on Gender – Paper-4*\\
+   Washington University, St. Louis, Missouri (2019) {{{needspace}}}
+
+* Workshops and Trainings Conducted (Select)
+  
+1. *Developing and Validating Measures for Gender Equity and Empowerment* \\
+   Online Webinar (2022) {{{needspace}}}
+
+2. *Data Analytics and Visualization for Corporate Decision-Making* \\
+   Mumbai, India (2018) {{{needspace}}}
+
+3. *Data Visualization in R for Research Managers* \\
+   New Delhi, India (2018) {{{needspace}}}    
+
+* Research Assignments (Select)
+
+1. *The Status of Women in New Orleans (2024)* \\   
+   Role: Pre-Doctoral Fellow \\
+   Funding: Junior League of New Orleans {{{needspace}}}
+
+2. *Understanding the Health Impact of Air Pollution by Race/Ethnicity in California (2023-24)*\\
+   Role: Pre-Doctoral Fellow \\
+   Funding: California Air Review Board (CARB) {{{needspace}}}
+
+4. *Evidence-Based Measures of Empowerment for Research on Gender Equality (Emerge) (2019-2023)*\\
+   Role: Pre-Doctoral Fellow \\
+   Funding: The Bill & Melinda Gates Foundation {{{needspace}}}
+
+* Contributions to Platforms and Packages
+1. *Thin-Client to Download Data from Google Earth Engine (2025)* [[Https://Github.Com/Thrcle421/Thin-Client-For-Google-Earth-Engine][Link]] \\
+   Role: Conceptualized and Worked with a Full-Stack Developer to Develop a Point and Click Platform to Download Data from Google Earth Engine. {{{needspace}}}
+    
+2. *EMERGE: A One Stop Shop for Validated Measures on Gender Equity and Empowerment (2021-2023)* [[Https://Emerge.Ucsd.Edu/][Link]] \\
+   Role: Developed the Back-End Architecture, Contributed to Design and Curated Measures for the Repository {{{needspace}}}
+
+3. *The Rural Analytic Center (TRAC)* (2018) [[Https://Www.Tracindia.Org/Page/Data-Visualization][Link]] \\
+   Role: Curated Datasets, and Contributed to Conceptualization and Development of the Back-End Architecture and Design {{{needspace}}}
+    
