@@ -30,8 +30,15 @@ jobs:
         run: |
           mkdir -p _site/cv _site/assets
 
-          # Strip @@latex:...@@ inline snippets that produce empty paragraphs in HTML
-          sed 's/@@latex:[^@]*@@//g' academic/academic-cv.org > /tmp/cv-clean.org
+          # Preprocess org file:
+          # 1. strip @@latex:...@@ inline snippets
+          # 2. strip {{{macro}}} calls (e.g. needspace)
+          # 3. strip trailing \\ forced line breaks — pandoc requires closing * for bold
+          #    to be followed by whitespace/punctuation, but \\ blocks recognition
+          sed 's/@@latex:[^@]*@@//g' academic/academic-cv.org \
+            | sed 's/{{{[^}]*}}}//g' \
+            | sed 's/\\\\$//' \
+            > /tmp/cv-clean.org
 
           # Convert CV org -> HTML
           # --shift-heading-level-by=1: maps *Section -> h2, **Sub -> h3, ***Sub -> h4
@@ -40,7 +47,7 @@ jobs:
             --to=html5 \
             --standalone \
             --shift-heading-level-by=1 \
-            --css=../assets/cv.css \
+            --css=../assets/cv.css?v=4 \
             --metadata title="Arnab K. Dey" \
             --output=_site/cv/index.html
 
