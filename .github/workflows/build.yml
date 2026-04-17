@@ -54,6 +54,9 @@ jobs:
             --metadata title="Arnab K. Dey" \
             --output=_site/cv/index.html
 
+          # Wrap the name in a styled span for prominent display
+          sed -i 's|<p>Arnab K. Dey<br />|<p><span class="cv-name">Arnab K. Dey</span><br />|' _site/cv/index.html
+
           # Append back link to CV page
           echo '<p class="back-link"><a href="/">Back to home</a></p>' >> _site/cv/index.html
 
