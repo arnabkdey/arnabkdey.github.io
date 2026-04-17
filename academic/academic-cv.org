@@ -46,9 +46,9 @@ University of California San Diego\\
     Advised by: [[https://profiles.ucsd.edu/Tarik.Benmarhnia][Dr. Tarik Benmarhnia]] & [[https://newcomb.tulane.edu/anita_raj][Dr. Anita Raj]] @@latex:\vspace{0.5em}@@\\
     Thesis Title: Understanding The Effects of Extreme Temperatures on The Utilization of Maternal Health Services and Neonatal Survival in India
 
-*** Post Graduate Diploma in forestry Management
+*** Post Graduate Diploma in Forestry Management
     2010-2012 \\
-    Indian institute of forest Management, India
+    Indian Institute of Forest Management, India
 
 *** Bachelor of Engineering (Electronics and Communication)
     2006-2010 \\
@@ -371,6 +371,10 @@ University of California San Diego\\
     *Dey, A.K.*\\
     8th AfrEA International Conference, Kampala, Uganda (2017) {{{needspace}}}
 
+11. *Crisis Within Crisis: IPV and Climate-Related Disasters*\\
+    *Dey, A.K.*\\
+    Research Roundtable, Futures without Violence (April 2026) {{{needspace}}}
+
 * Workshops and Trainings Conducted
   
 1. *Developing and Validating Measures for Gender Equity and Empowerment* \\
@@ -456,7 +460,7 @@ University of California San Diego\\
    2021-2023 \\
    Role: Developed the Back-End Architecture, Contributed to Design and Curated Measures for the Repository {{{needspace}}}
 
-3. *The Rural Analytic Center (TRAC)* [[Https://Www.Tracindia.Org/Page/Data-Visualization][Link]] \\
+3. *The Rural Analytic Center (TRAC)* [[https://www.tracindia.org/page/data-visualization/][Link]] \\
    2018 \\
    Role: Curated Datasets, and Contributed to Conceptualization and Development of the Back-End Architecture and Design {{{needspace}}}
     
